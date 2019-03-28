@@ -5,7 +5,7 @@ from fbcrawl.spiders.fbcrawl import FacebookSpider
 from fbcrawl.items import CommentsItem
 
 
-class CommentsSpider(FacebookSpider):
+class CommentsSpider(scrapy.Spider):
     """
     Parse FB comments, given a post (needs credentials)
     """    

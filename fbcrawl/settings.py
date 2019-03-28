@@ -90,5 +90,8 @@ CONCURRENT_REQUESTS = 16
 #FEED_EXPORT_FIELDS = ["source", "date", "text", "reactions","likes","ahah","love","wow","sigh","grrr","comments","url"] # specifies the order of the column to export as CSV
 FEED_EXPORT_ENCODING = 'utf-8'
 DUPEFILTER_DEBUG = True
+
 LOG_LEVEL = 'INFO'
+#忽略所有debug訊息 只顯示 info(), warning(), error(), critical()
+
 #LOG_LEVEL = 'DEBUG'
