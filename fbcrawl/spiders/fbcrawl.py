@@ -16,7 +16,7 @@ class FacebookSpider(scrapy.Spider):
     #name
 
     custom_settings = {
-        'FEED_EXPORT_FIELDS': ['source','shared_from','date','text', 'texts', \
+        'FEED_EXPORT_FIELDS': ['source','shared_from','date','text', \
                                'reactions','likes','ahah','love','wow', \
                                'sigh','grrr','comments','url']
     }
